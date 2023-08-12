@@ -1,0 +1,26 @@
+﻿
+-- Customers Table
+CREATE TABLE IF NOT EXISTS qa_store.customers
+(
+    customer_id uuid NOT NULL,
+    first_name character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    last_name character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    address character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT customers_pkey PRIMARY KEY (customer_id)
+)
+
+
+-- Orders Table
+CREATE TABLE IF NOT EXISTS qa_store.orders
+(
+    order_id uuid NOT NULL,
+    item_name character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    cost integer NOT NULL,
+    customer_id_fk uuid NOT NULL,
+    CONSTRAINT orders_pkey PRIMARY KEY (order_id),
+    CONSTRAINT customer_id FOREIGN KEY (customer_id_fk)
+        REFERENCES qa_store.customers (customer_id) MATCH SIMPLE
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
+)
+
