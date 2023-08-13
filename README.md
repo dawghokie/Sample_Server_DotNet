@@ -9,7 +9,7 @@
 # Quick Points
 - Application Start Up code located in `Program.cs`
     - CORS policies setup here
-    - Registering of Services for depdency injection is initiated here
+    - Registering of Services for dependency injection is initiated here
 - This server runs locally at `https://localhost:7004/`
 
 # Design Decisions
