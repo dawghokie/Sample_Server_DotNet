@@ -18,11 +18,15 @@ object-relational mapping (ORM). It lets us execute raw sql, easily map
 sql output to objects, and reduce boiler-plate code. The Entity Framework is
 another good choice for an ORM because it can be easier to use due to its
 higher level of abstraction (you don't write raw sql).
+- [FakeItEasy](https://www.nuget.org/packages/FakeItEasy/8.0.0-alpha.1.10) is being used for Mocking in Unit Testing
+- [FluentAssertions](https://www.nuget.org/packages/FluentAssertions/) is being used
+for Asserting Equality
 
 
 # Moving Forward
 - The same Model classes are used in the DAL and BL for simplicity. Moving forward
 the DAL and BL should have their own Model class so only the required data is returned
 - Leverage tool to version control manage Database Schemas. [Liquibase](https://www.liquibase.com/)
-is heavily used in the Java Spring environment and may be an appropriate solution for .net
+would be a nice option
+- Continue building out testing suite
 

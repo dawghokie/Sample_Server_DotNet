@@ -27,10 +27,12 @@
   <ItemGroup>
     <None Remove="Src\" />
     <None Remove="Src\Controllers\" />
+    <None Remove="Src\Utils\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Src\" />
     <Folder Include="Src\Controllers\" />
+    <Folder Include="Src\Utils\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sample_Server\Sample_Server.csproj" />
