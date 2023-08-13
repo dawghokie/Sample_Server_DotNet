@@ -1,5 +1,5 @@
 # Overview
-.net Backend Server that exposes a REST API and queries data from a PostgreSQL table
+.NET Backend Server that exposes a REST API and queries data from a PostgreSQL table
 - Swagger API Information available @ - `https://localhost:7004/swagger/index.html`
 
 # Endpoints 
