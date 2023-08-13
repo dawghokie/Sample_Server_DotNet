@@ -1,4 +1,0 @@
-0000000000000000000000000000000000000000 e47f4a4d49c268f18a107d643ff646d50eb4c96c Peter Q <peteraquan92@gmail.com> 1691880680 -0400	commit (initial): Add Unit Testing with FakeItEasy and FluentAssertions for CustomersController
-e47f4a4d49c268f18a107d643ff646d50eb4c96c e47f4a4d49c268f18a107d643ff646d50eb4c96c Peter Q <peteraquan92@gmail.com> 1691880701 -0400	checkout: moving from main to unitTesting
-e47f4a4d49c268f18a107d643ff646d50eb4c96c e47f4a4d49c268f18a107d643ff646d50eb4c96c Peter Q <peteraquan92@gmail.com> 1691880727 -0400	reset: moving to e47f4a4d49c268f18a107d643ff646d50eb4c96c
-e47f4a4d49c268f18a107d643ff646d50eb4c96c e47f4a4d49c268f18a107d643ff646d50eb4c96c Peter Q <peteraquan92@gmail.com> 1691880836 -0400	checkout: moving from unitTesting to main
