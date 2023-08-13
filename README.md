@@ -14,10 +14,8 @@
 
 # Design Decisions
 - [Dapper](https://www.nuget.org/packages/Dapper) is being used for
-object-relational mapping (ORM). It lets us execute raw sql, easily map
-sql output to objects, and reduce boiler-plate code. The Entity Framework is
-another good choice for an ORM because it can be easier to use due to its
-higher level of abstraction (you don't write raw sql).
+object-relational mapping (ORM). It allows writing raw sql, it easily maps
+responses to objects, and it reduce boiler-plate code.
 - [FakeItEasy](https://www.nuget.org/packages/FakeItEasy/8.0.0-alpha.1.10) is being used for Mocking in Unit Testing
 - [FluentAssertions](https://www.nuget.org/packages/FluentAssertions/) is being used
 for Asserting Equality
@@ -29,4 +27,6 @@ the DAL and BL should have their own Model class so only the required data is re
 - Leverage tool to version control manage Database Schemas. [Liquibase](https://www.liquibase.com/)
 would be a nice option
 - Continue building out testing suite
+- Consider migrating to the Entity Framework ORM to take advantage of it's higher level abstraction.
+Explore this [Dapper vs Entity Article](https://www.linkedin.com/pulse/dapper-vs-entity-framework-nadim-attar#:~:text=In%20summary%2C%20comparing%20Entity%20Framework,focused%20on%20performance%20and%20control.) to dive into the pros and cons of each.
 
