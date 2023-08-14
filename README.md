@@ -3,8 +3,8 @@
 - Swagger API Information available @ - `https://localhost:7004/swagger/index.html`
 
 # Endpoints 
-- `/customers` : get all customers stored in the SQL Database
-- `/orders` : get all orders customers have placed
+- `/customers` : get all customers (stored in a SQL Database)
+- `/orders` : get all orders customers have placed (stored in a SQL Database)
 
 # Quick Points
 - Application Start Up code located in `Program.cs`
